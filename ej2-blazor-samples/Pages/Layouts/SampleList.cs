@@ -78,6 +78,26 @@ namespace ej2_blazor_samples
                 Type = SampleType.New
             }
         };
+        public List<Sample> Splitter { get; set; } = new List<Sample>{
+            new Sample
+            {
+                Name = "Default Functionalities",
+                Category = "Splitter",
+                Directory = "Layout/Splitter",
+                Url = "Splitter/Default",
+                FileName = "Default.razor",
+                Type = SampleType.New
+            },
+            new Sample
+            {
+                Name = "Expand and Collapse",
+                Category = "Splitter",
+                Directory = "Layouts/Splitter",
+                Url = "Splitter/ExpandandCollapse",
+                FileName = "ExpandandCollapse.razor",
+                Type = SampleType.New
+            },
+        };
     }
 
    

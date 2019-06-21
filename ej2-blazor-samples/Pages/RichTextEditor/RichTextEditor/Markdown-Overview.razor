@@ -46,8 +46,7 @@
 
 </div>
 
-@functions{
-    private bool CharCount { get; set; } = true;
+@code {
     private string value { get; set; } = @"The sample is added to showcase **markdown editing**.
 
 Type or edit the content and apply formatting to view markdown formatted content.
@@ -60,7 +59,6 @@ The third-party library <b>Marked</b> is used in this sample to convert markdown
 "Formats", "OrderedList", "UnorderedList", "|",
 "CreateLink", "Image", "CreateTable", "|", "Undo", "Redo"
     };
-    public object ToolbarItem { get; set; } = new ToolbarProperties { items = tools };
 
 }
 

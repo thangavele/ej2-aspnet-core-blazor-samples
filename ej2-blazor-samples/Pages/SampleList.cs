@@ -334,7 +334,7 @@ namespace ej2_blazor_samples
             {
                 Name = "Dialog",
                 Category = "Layout",
-                Directory = "Layout",
+                Directory = "Popups/Dialog",
                 Type = SampleType.New,
                 UID = 008,
                 Order = 02,
@@ -364,7 +364,7 @@ namespace ej2_blazor_samples
             {
                 Name = "Splitter",
                 Category = "Layout",
-                Directory = "Layout",
+                Directory = "Layouts/Splitter",
                 Type = SampleType.New,
                 UID = 010,
                 Order = 10,
